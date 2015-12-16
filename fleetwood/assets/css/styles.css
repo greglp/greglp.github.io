@@ -1,0 +1,84 @@
+/*------- Base Rules ------- */
+
+audio{
+    width: 100%;
+}
+
+/*------- Layout Rules -------*/
+
+/*------- Module Rules -------*/
+
+.module-dark{
+    background-color: #123456;
+    padding: 1em 1.5em;
+    color: #fff;
+}
+
+.module-light{
+    background-color: #fff;
+    padding: 2em;
+    margin-top: 2em;
+    color: #222222;
+}
+/*------- State Rules -------*/
+
+/*------- Theme Rules -------*/
+.light-blue{
+    color: #4f9fcf;
+}
+.blue{
+    color: #2f6f9f ;
+}
+.red{
+    color: #d44950;
+}
+.black{
+    color: #888888;
+}
+.navbar{
+    background-color: #FDF4D9;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #373a3c;
+}
+.tangerine{
+    font-family: 'Tangerine', cursive;
+}
+#exCollapsingNavbar2 > ul > li.nav-item.active > a{
+    color: #373a3c;
+}
+body > div.container > div:nth-child(2){
+    margin-bottom: 1em;
+}
+@media (max-width: 33.9em){
+    .display-3{
+        font-size: 3em;
+    }
+    .jumbotron{
+        text-align: center;
+    }
+    .media:first-child{
+        margin-top: 1em;
+    }
+    .media img{
+        width: 4em;
+    }
+
+}
+#jumbo{
+    background-color: #FDF4D9;
+}
+#title{
+    font-family: 'Tangerine', cursive;
+}
+#rumoursSetlist{
+    font-family: 'Tangerine', cursive;
+    font-size: 2em;
+}
+
+#songEmbed{
+    background-color: #FDF4D9;
+}
+#audioContainer{
+    padding-top: 4em;
+}
