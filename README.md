@@ -16,3 +16,8 @@ The end goal is to create a basic landing page creating all CSS first as SCSS!
 
 <h4>External Resources</h4>
 http://sass-lang.com/
+
+Change Log
+
+v0.3 Added Rumors style fleetwood theme to project
+v0.2 - Expanded scope of project to include Bootstrap Templates as the end product of SCSS learning.
