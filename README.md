@@ -19,5 +19,5 @@ http://sass-lang.com/
 
 Change Log
 
-v0.3 Added Rumors style fleetwood theme to project
-v0.2 - Expanded scope of project to include Bootstrap Templates as the end product of SCSS learning.
+<div>v0.3 Added Rumors style fleetwood theme to project</div>
+<div>v0.2 - Expanded scope of project to include Bootstrap Templates as the end product of SCSS learning.</div>
