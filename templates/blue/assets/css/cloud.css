@@ -235,14 +235,11 @@ i.fa.fa-road{
 }
 
 #footerWrap{
-    min-height: 5rem;
-
-}
+    min-height: 5rem;}
 
 #footerBrand nav{
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 #clouds{

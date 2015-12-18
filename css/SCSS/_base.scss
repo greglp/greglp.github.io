@@ -1,12 +1,27 @@
-h1 {
-  font-family: $font;
-  color: $accent-color;
-}
+/*----------- Base Styles -----------*/
+:focus{
+  outline: none;}
 
-p {
-  color: $primary-color;
-}
+*{
+  margin: 0;
+  padding: 0;}
 
-body {
-  background: $hero-image;
-}
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(95, 105, 122);
+  background: -o-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
+  background: -webkit-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
+  background: -moz-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
+  background: linear-gradient(top, rgba(201, 219, 233, 0.7 ) 0%, rgba(201, 219, 233, 0.7) 100%);}
+
+a, a:active, a:focus, a:hover {
+  color: inherit;}
+
+a:hover{
+  text-decoration: underline;}
+
+i.fa.fa-lightbulb-o.dreamIcon{
+  font-size: 3.1rem;}
+
+h2.text-center{
+  margin-bottom: 2rem;}
