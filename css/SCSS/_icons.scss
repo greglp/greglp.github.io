@@ -1,34 +1,13 @@
-.blueIcon{
-  font-size: 2.5rem;
+/*-----------icons-----------*/
+.media-icon {
   color: rgb(201, 219, 233);
   background: rgb(91, 91, 91);
   opacity: 0.7;
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   text-align: center;
   border-radius: 50%;
-  padding: 10px;}
-
-.dreamIcon {
-  font-size: 2.5rem;
-  color: rgb(201, 219, 233);
-  background: rgb(91, 91, 91);
-  opacity: 0.7;
-  display: inline-block;
-  width: 4rem;
-  height: 4rem;
-  text-align: center;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-i.fa.fa-mobile.dreamIcon{
-  font-size: 3.5rem;
-  padding: 2px;
-}
-
-i.fa.fa-lightbulb-o.dreamIcon{
+  vertical-align: middle;
   font-size: 3.1rem;
-}
-
+  padding: 14px 1px; }

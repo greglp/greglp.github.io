@@ -1,16 +1,9 @@
-/*----------- Theme Styles -----------*/
-#mission{
-  margin-bottom: 2.5rem;}
+/*-----------theme styles-----------*/
+#mission {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  font-weight: $weight;  }
 
-#mission, #contentMain{
-  font-size: 4rem;}
-
-i.fa.fa-mobile.dreamIcon {
-  font-size: 3.5rem;
-  padding: 2px;
-}
-.hvr-grow-shadow:active, .hvr-grow-shadow:focus, .hvr-grow-shadow:hover {
-  box-shadow: 0 10px 10px -10px rgba(0,0,0,.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+h4.media-heading{
+  font-weight: $weight;
 }

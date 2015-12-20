@@ -19,10 +19,10 @@ html{
 body{
     font-family: 'Open Sans', sans-serif;
     color: rgb(95, 105, 122);
-    background: -o-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-    background: -webkit-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-    background: -moz-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-    background: linear-gradient(top, rgba(201, 219, 233, 0.7 ) 0%, rgba(201, 219, 233, 0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.6) 100%);
+    background: -moz-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.6) 100%);
+    background: -o-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.6) 100%);
+    background: linear-gradient(top, rgba(201, 219, 233, 0.7 ) 0%, rgba(201, 219, 233, 0.6) 100%);
 }
 
 footer{

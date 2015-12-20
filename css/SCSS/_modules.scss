@@ -1,5 +1,8 @@
-/*----------- Module Styles -----------*/
+/*-----------module styles-----------*/
+.media-body {
+  padding-left: 1rem; }
 
-
-.media-body{
-  padding-left: 1rem;}
+.media, .media-body {
+  overflow: visible;
+  zoom: 1;
+}

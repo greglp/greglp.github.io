@@ -1,24 +1,22 @@
-/*----------- Base Styles -----------*/
-:focus{
-  outline: none;}
+/*-----------base styles-----------*/
+@import "_variables";
 
-*{
-  margin: 0;
-  padding: 0;}
+:focus {
+  outline: none; }
 
-body{
-  font-family: 'Open Sans', sans-serif;
-  color: rgb(95, 105, 122);
-  background: -o-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-  background: -webkit-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-  background: -moz-linear-gradient(top, rgba(201, 219, 233, 0.7) 0%, rgba(201, 219, 233, 0.7) 100%);
-  background: linear-gradient(top, rgba(201, 219, 233, 0.7 ) 0%, rgba(201, 219, 233, 0.7) 100%);}
+body {
+  height: 100vh;
+  font-family: $font;
+  color: $primary-font;
+  background: rgba(201, 219, 233, 0.7);
+  background: -webkit-linear-gradient($gradient);
+  background: -moz-linear-gradient($gradient);
+  background: -o-linear-gradient($gradient);
+}
 
 a, a:active, a:focus, a:hover {
-  color: inherit;}
+  color: inherit; }
 
-a:hover{
-  text-decoration: underline;}
-
-h2.text-center{
-  margin-bottom: 2rem;}
+a:hover {
+  text-decoration: underline;
+}
