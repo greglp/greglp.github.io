@@ -6,6 +6,7 @@ p {
   color: #212121; }
 
 body {
-  background: url("../img/space-hero.jpg"); }
+  background: url("../img/space-hero.jpg") top center/cover no-repeat;
+  min-height: 100vh; }
 
 /*# sourceMappingURL=theme.css.map */

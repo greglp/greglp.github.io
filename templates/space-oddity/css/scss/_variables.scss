@@ -2,4 +2,4 @@ $font: Arial, 'Helvetica Neue', Helvetica, sans-serif !default;
 $primary-color: #212121 !default;
 $accent-color: blue !default;
 $hero-link: '../img/space-hero.jpg' !default;
-$hero-image : (url($hero-link)) !default;
+$hero-image : (url($hero-link) top center/cover no-repeat) !default;

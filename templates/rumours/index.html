@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Never Break The Chain</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" >
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine:400,700|Clicker+Script|Meddon|Felipa' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/theme.css" />
@@ -12,28 +15,16 @@
 <body id="home">
     <div class="container-fluid p-a-0 ">
         <header>
-            <nav class="navbar navbar-light bg-faded">
-                <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">&#9776;</button>
-                <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="#">Band<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#rumours">Rumours</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Record Plant</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Rhiannon</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Live</a></li>
-                    </ul>
-                </div>
-            </nav>
             <div id="jumbo" class="jumbotron m-b-0">
-                <h1 id="title"  class="display-3">Rumours</h1>
-                <p class="lead">Bootstrap v4.0 template inspired by Fleedwood mac</p>
+                <h1 id="title"  class="display-3 text-center">Never Break the Chain</h1>
+                <p class="lead text-center">Fleetwood Mac</p>
             </div>
         </header>
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 p-r-0 p-l-0">
-                <img id="bannerImage" src="images/banner.jpg" width="100%">
+                <img id="bannerImage" src="images/banner.jpg" width="100%" height="auto">
             </div>
         </div>
     </div>
@@ -44,8 +35,8 @@
             </div>
             <div id="rumours" class="col-sm-6 module-light">
                 <ol id="rumoursSetlist" class=" p-l-3 p-y-2">
-                    <li>Second Hand News</li>
-                    <li>Dreams</li>
+                    <li id="secondHandNews">Second Hand News</li>
+                    <li id="dreams" data-toggle="modal" data-target="#myModal">Dreams</li>
                     <li>Never Going Back Again</li>
                     <li>Don't Stop</li>
                     <li>Go Your Own Way</li>
@@ -75,7 +66,32 @@
             </div>
         </div>
     </div>
+
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2></h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <iframe width="560px" height="315px" src="https://www.youtube-nocookie.com/embed/p6Fdm3-dnr0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+    <script>
+        $('#secondHandNews').click(function () {
+            var src = 'https://www.youtube-nocookie.com/embed/p6Fdm3-dnr0?rel=0&amp;showinfo=0';
+            $('#myModal').modal('show');
+            $('#myModall iframe').attr('src', src);
+        });
+        $("#myModal").on('hidden.bs.modal', function (e) {
+            $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+        });
+    </script>
 </body>
 </html>
